@@ -1,0 +1,90 @@
+<!-- 
+  Projects Page
+
+  Base Template for CS 377Q A5. An example of a website with many accessibility issues.
+ -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Page Title -->
+  <title>Pacman</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/a5-template.css">
+
+  <!-- Javascript Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/a5-template.js"></script>
+</head>
+
+<body>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="container">
+
+    <!-- Header - Repeats in every page -->
+    <header>
+      <!-- Main Title -->
+      <div id="heading">Pacman</div>
+
+      <!-- Profile Photo -->
+      <div id="profile">
+        <img src="images/profile.png" class="img-responsive">
+      </div>
+
+      <!-- Navigation Bar -->
+      <nav class="navbar">  
+        <ul>
+          <li><a href="index.html">Home</a>
+          <li><a href="projects.html">Projects</a>
+          <li><a href="contact.html">Contact</a>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Page Content -->
+    <main>
+
+      <h3>A Video About Me</h3>
+      <!-- Section with Video -->
+      <div class="videoGroup">
+        <!-- Video media -->
+        <video width="480" height="300" id="thevideo">
+          <source src="video/video.mp4" type="video/mp4">
+        </video>
+        <!-- Add a Play/Pause Button -->
+        <div id="videoplayer">
+          <img width="50px" height="50px" src="images/play.png">
+        </div>
+      </div>
+
+      <!-- Plot of Users -->
+      <figure>
+        <img src="images/plotWithCaption.png" style="width:80%">
+        <figcaption></figcaption>
+      </figure> 
+
+      <!-- Magazine Image -->
+      <figure>
+        <img src="images/cerealBox.jpg" style="width:40%">
+        <figcaption>Featured in a cereal produced by General Mills in 1984.</figcaption>
+      </figure>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="container">
+      <img src="images/spacer.png" id="spacer">
+    </footer>
+
+  </div> 
+  <!-- End Page Content Container -->
+
+</body>
+
+</html>

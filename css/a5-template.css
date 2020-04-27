@@ -1,0 +1,138 @@
+/******* Set body font size and color *****/
+body {
+  display: block;
+  width: 70%;
+  margin: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #777676;
+}
+
+/***** Change background color on hover *****/
+a:hover {
+  background: #FD0;
+}
+
+
+/************* Navbar Style *************/
+
+/* Center navbar */
+nav ul {
+  text-align: center;
+  padding: 0;
+}
+/* Style navbar links color and font */
+nav ul li a {
+  background: #EEE;      /* background color */
+  color: #FFF;           /* font color */
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;   /* rounded corners */
+  padding: 3px 12px;   
+  text-decoration: none;
+}
+/* Display navbar links inline */
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+/*************** Video Style ***************/
+
+/* Make videos centered */
+video {
+  margin: auto;
+  display: block;
+}
+/* Position video player button */
+#videoplayer {
+  text-align: center;
+  position: relative;
+  top: -100px;
+}
+
+/*********** Images & Captions ************/
+
+/* Make images centered */
+img {
+  margin: auto;
+  display: block;
+}
+
+/* style profile image */
+#profile img {
+  margin: auto;
+  display: block;
+  width: 200px;
+  vertical-align: middle;
+}
+
+/* Make images centered */
+figure figcaption {
+  text-align: center;
+}
+
+/* Style Decorative Spacer Bar */
+#spacer {
+  width: 30%; 
+  padding: 1em 1em;
+}
+
+
+/*************** Table ***************/
+table {
+  width: 50%; 
+}
+table, th, td {
+  border: 1px solid black; /* border width and color */
+  padding: 10px; /* spacing between border and text */
+}
+
+
+/************* Headings *************/
+#heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+#heading2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: .5em 0;
+}
+
+#heading3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.0em;
+  margin: .5em 0;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+/*************** Form ***************/
+.error {
+  color: red;
+}
+
+input[type=text] {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+

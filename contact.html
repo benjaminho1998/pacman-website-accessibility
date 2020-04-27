@@ -1,0 +1,104 @@
+<!-- 
+  Contact Page
+
+  Base Template for CS 377Q A5. An example of a website with many accessibility issues.
+ -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Page Title -->
+  <title>Pacman</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/a5-template.css">
+
+  <!-- Javascript Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/a5-template.js"></script>
+</head>
+
+<body>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="container">
+
+    <!-- Header - Repeats in every page -->
+    <header>
+      <!-- Main Title -->
+      <div id="heading">Pacman</div>
+
+      <!-- Profile Photo -->
+      <div id="profile">
+        <img src="images/profile.png" class="img-responsive">
+      </div>
+
+      <!-- Navigation Bar -->
+      <nav class="navbar">  
+        <ul>
+          <li><a href="index.html">Home</a>
+          <li><a href="projects.html">Projects</a>
+          <li><a href="contact.html">Contact</a>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Page Content -->
+    <main>
+
+      <h2>Contact Me</h2>
+
+      <form id="receive-news-form">
+
+        <p>Fields in red indicate errors.</p>
+
+        <!-- Enter Name and Last Name -->
+        <p>
+          <span id="name">Name:</span>  
+          <input name="fn" type="text" id="fn"> 
+          <input name="ln" type="text" id="ln">
+        </p>
+
+        <!-- Enter Email -->
+        <p>
+          <span id="email">Email:</span> 
+          <input id="em" name="em" type="text">
+        </p>
+
+        <!-- Sign up for my newsletter -->
+        <p>
+          <span>Receive my newsletter?</span>
+          <div id="receiveNewsButton">
+            <img src="images/checked.png" alt="checkbox" style="margin: 0;">
+          </div>
+          <input type="hidden" name="receiveNewsVal" id="receiveNewsVal" value="n">
+        </p>
+
+        <!-- Comments Box -->
+        <p>
+          Comments:<br>
+          <textarea rows="5" cols="55"></textarea>
+        </p>
+        
+        <!--  Sign Up Button -->
+        <button type="button" id="signupbutton">Sign Up!</button>
+
+      </form>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="container">
+      <img src="images/spacer.png" id="spacer">
+    </footer>
+
+  </div> 
+  <!-- End Page Content Container -->
+
+</body>
+
+</html>
+

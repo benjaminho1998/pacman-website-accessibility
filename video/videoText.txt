@@ -1,0 +1,5 @@
+Pacman. 
+
+Pacman was born in 1980. 
+
+Game play begins with the player manipulating Pacman using either keyboard arrows or a joystick. The goal is to move Pacman around the maze-like screen to consume lines of 240 dots and avoiding or attacking one of four hunting ghosts. The four ghosts come in different colors: Blinky (red), Inky (light blue), Pinky (pink), and Clyde (orange).
