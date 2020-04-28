@@ -24,7 +24,7 @@ nav ul {
 /* Style navbar links color and font */
 nav ul li a {
   background: #EEE;      /* background color */
-  color: #FFF;           /* font color */
+  color: black;           /* font color */
   font-size: 20px;
   font-weight: bold;
   border-radius: 10px;   /* rounded corners */
